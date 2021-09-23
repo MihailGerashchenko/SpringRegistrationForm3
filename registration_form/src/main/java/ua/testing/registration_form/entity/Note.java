@@ -12,5 +12,7 @@ public class Note {
 
     private Long id;
     private String names;
+    private String surname;
+    private String nationality;
     private String login;
 }

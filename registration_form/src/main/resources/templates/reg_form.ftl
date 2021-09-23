@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registration form's Main</title>
+    <title>Registration form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,7 +11,7 @@
 </head>
 <body ng-app="registration_form" ng-controller="AppCtrl">
 <div class="col-md-8 col-md-offset-2">
-    <h1>Registration form's Main</h1>
+    <h1>Registration form</h1>
 </div>
 <div class="container" style="margin-top: 60px">
     <div class="row">
@@ -26,6 +26,24 @@
                            placeholder="First Name"
                            required
                            ng-model="auth.names">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputSurname">Surname</label>
+                    <input type="text"
+                           class="form-control"
+                           id="exampleInputSurname"
+                           placeholder="Surname"
+                           required
+                           ng-model="auth.surname">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputNationality">Nationality</label>
+                    <input type="text"
+                           class="form-control"
+                           id="exampleInputNationality"
+                           placeholder="Nationality"
+                           required
+                           ng-model="auth.nationality">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputLogin">Login</label>

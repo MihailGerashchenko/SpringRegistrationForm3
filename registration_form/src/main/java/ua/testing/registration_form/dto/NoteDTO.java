@@ -12,8 +12,11 @@ public class NoteDTO {
 
     private String names;
 
-    private String login;
+    private String surname;
 
+    private String nationality;
+
+    private String login;
 
 
 }
