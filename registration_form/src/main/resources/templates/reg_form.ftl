@@ -16,7 +16,7 @@
 <div class="container" style="margin-top: 60px">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="page-header">Registration Form</h2>
+            <h2 class="page-header">Registration Form Demo</h2>
             <form style="margin-bottom: 30px" name="form" autocomplete="off" novalidate ng-submit="form.$valid && sendForm(auth)">
                 <div class="form-group">
                     <label for="exampleInputName">First name</label>
@@ -67,5 +67,6 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="/js/reg_form.js"></script>
 </body>
 </html>
