@@ -7,18 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PagesController {
 
     @RequestMapping("/")
-    public String mainPage() {
+    public String mainPage(){
         return "index.html";
     }
 
     @RequestMapping("/api")
-    public String apiPage() {
+    public String apiPage(){
         return "index.html";
     }
 
     @RequestMapping("/form")
-    public String regForm() {
+    public String regForm(){
         return "reg_form";
     }
-
 }
